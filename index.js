@@ -80,3 +80,15 @@ window.onscroll = function() {
         document.getElementById("roll_back").style.display = "none";
     }
 }
+
+
+
+const callBtn = document.getElementById("call-btn");
+
+
+callBtn.addEventListener("click", () => {
+  window.location.href = "tel:+919418189944";
+});
+
+
+
